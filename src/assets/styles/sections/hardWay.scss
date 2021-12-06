@@ -1,0 +1,27 @@
+.hardWay.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 38px;
+
+  .hardWay__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 36px;
+    color: $c-black;
+  }
+
+  .hardWay__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: $c-gray;
+    margin-top: 23px;
+    margin-bottom: 23px;
+  }
+}
+
